@@ -1,0 +1,216 @@
+body {
+    background-color: #272524;
+    font-family: courier, courier new, serif !important;
+}
+
+#titulo {
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    text-align: center;
+
+}
+
+#wrapper {
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#left {
+    background-color: #000000;
+    float: left;
+    width: 20%;
+    height:1100px;
+    padding: 1%;
+    text-align: center;
+
+}
+
+#right {
+
+    float: left;
+    width: 80%;
+    height: 900px;
+
+}
+
+#content {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    
+    padding: 5%;
+
+}
+
+#contentP {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    
+    padding: 5%;
+
+}
+
+#contentE {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 900px;
+    color: rgb(255, 255, 255);
+    
+
+
+}
+
+#contentE2 {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 2700px;
+    color: rgb(255, 255, 255);
+    
+
+
+}
+
+#contentE3 {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 600px;
+    color: rgb(255, 255, 255);
+    
+
+
+    
+}
+#contentE4 {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    
+
+
+}
+.h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contentw {
+    background-color: #dbdbdb;
+    width: 100%;
+    height: 400px;
+    color: black;
+
+    padding: 5%;
+
+}
+
+
+
+#h2_1 {
+    color: #dbdbdb;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+}
+
+#presentacion {
+    width: 90%;
+    text-align: center;
+    font-size: small;
+    margin: 5%;
+    padding: 5;
+    text-align: center;
+}
+
+.card-title {
+    font-size: small;
+    color: #000000;
+}
+
+.card-text {
+    font-size: x-small;
+    color: #000000;
+}
+
+.card-group {
+    margin: 5%;
+
+}
+
+#imgCont {
+    width:  30%;
+    float: left;
+    margin: 2%;
+    padding: 5%;
+}
+
+#imgCont1 {
+    width:  30%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+
+#textCont {
+    width: 60%;
+    float: left;
+    margin: 2%;
+    padding: 5%;
+}
+#textCont2 {
+    width: 100%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+#p1 {
+
+
+    margin: 2%;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+}
+
+.imgCont {
+    width: 290px;
+    float: left;
+
+}
+#Dimg {
+width: 100%;
+text-align: center;
+}
+
+#Uimg {
+    width: 46%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    }
+
+    #UDimg {
+        width: 46%;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+    }
+
+#galeria {
+    width: 85%;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 5%;
+    text-align: center;
+}

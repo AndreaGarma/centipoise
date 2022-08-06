@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Mallado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark"
+        style="background-color: #960A09; font-family: courier, courier new, serif;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="120" class="d-inline-block align-text-middle">
+                Análisis de un perfil aeronáutico
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aerodinámica
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cfd.html">CFD</a></li>
+                            <li><a class="dropdown-item" href="mallado.html">Mallado</a></li>
+                            <li><a class="dropdown-item" href="materiales.html">Materiales</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conclusiones.html">Conclusiones</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div id="wrapper">
+        <div id="left">
+
+            <h2 id="h2_1" class="animate__animated animate__fadeInDown"> Galería </h2>
+            <div id="presentacion" class="animate__animated animate__fadeIn">
+                <a href="materiales.html">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Esf esquina 2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Des abajo.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Des arriba.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div id="presentacion" class="animate__animated animate__fadeIn">
+                <a href="cfd.html">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/opfm1.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/opfm2.jpeg" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div id="presentacion" class="animate__animated animate__fadeIn">
+                <a href="cfd.html">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/pv1.jfif" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/pv2.jfif" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="presentacion" class="animate__animated animate__fadeIn">
+                <a href="materiales.html">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/spider1.jfif" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/spider2.jfif" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div id="right">
+            <div id="titulo">
+                <img src="img/ANÁLISIS-Y-MALLADO.jpg" alt="" width="1000px">
+            </div>
+            <div id="contentw">
+                <div id="imgCont"><img src="img/ED H.gif" class="imgCont" alt=""></div>
+                <div id="textCont">
+                    <h2 class="animate__animated animate__fadeInDown">Mallado</h2>
+                    <p class="animate__animated animate__fadeIn">Para la contrucción del mallado, se utiliza el método
+                        de elementos finitos (FEM). Es un enfoque numérico mediante el cual estas ecuaciones
+                        diferenciales parciales se pueden resolver aproximadamente.
+                    </p>
+                </div>
+            </div>
+
+            <div id="contentE3">
+                <div>
+                    <div id="textCont2">
+                        <h2 class="animate__animated animate__fadeInDown">Mallado</h2>
+                    </div>
+                </div>
+
+                <p id="p1" class="animate__animated animate__fadeIn"> Hay muchos compuestos en la naturaleza que son
+                    sumamente ligeros pero muy resistentes, esto se debe a su composición. Usualmente son materiales
+                    compuestos, “Un material compuesto está formado por la combinación de
+                    dos o más materiales distintos para formar un nuevo material con propiedades mejoradas” (Barbero,
+                    2010). Los materiales pueden sufrir esfuerzos, presiones, etc. De igual forma, pueden deformarse
+                    como resultado del esfuerzo o mantenerse en un rango elástico que le permita someterse a esfuerzo
+                    sin modificarse o deformarse plásticamente.</p>
+
+             
+                <div id="imgCont"><img src="img/ESDF.png" class="imgCont" alt=""></div>
+                <div id="textCont">
+
+                    <p>
+                        Conocer las propiedades de los materiales es fundamental para la aerodinámica pues se buscan materiales demasiado resistentes y ultra-ligeros.
+                    </p>
+                </div>
+            </div>
+
+            <div id="contentP">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/andy.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Andrea Garma</h5>
+                            <p class="card-text">Soy estudiante de Ingeniería en Mecatrónica en la UADY. Me gusta Star
+                                Wars, la ciencia y la programación.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Erick_jpg.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Erick Martínez</h5>
+                            <p class="card-text">Facultad de Ingeniería Química UADY.
+                                Estudiante de Ingeniería Industrial Logística y coleccionista de historias; amante de la
+                                ciencia, aventuras y misterios.</p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <img src="img/Edwin.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Edwin Espinosa</h5>
+                            <p class="card-text">Aspirante a estudiar Arquitectura
+                                Fanático de los videojuegos, la música, el diseño y dibujo
+                                Me considero alguien observador y analítico, me gusta encontrar el porqué de las cosas.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <img src="img/Perfil sofi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sofia Vargas</h5>
+                            <p class="card-text">Estudiante de Ingeniería Industrial Logística, bailarina de tap y
+                                ballet. Me considero gran admiradora de los pingüinos y de la ciencia.</p>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <img src="img/Skype-perfil.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaspar Pech</h5>
+                            <p class="card-text">Estudiante de Ingeniería en Biotecnología dispuesto a generar
+                                conocimiento y mejorar el mundo a través de él; entusiasta del PC Gaming y de la
+                                fotografía.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
